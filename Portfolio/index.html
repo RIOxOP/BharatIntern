@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Supriyo's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                My Name is <span class="purple">Supriyo Dawn</span>
+                <div>And I'm a web developer</div>
+                <div>I'm a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                   <a href="https://github.com/RIOxOP"> <button class="btn">
+                        Visit My Github
+                    </button></a>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt=""> 
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <Span class="text-gray">What I have done so far</Span>
+            <h1>My Experiences</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="dev" src="dev.png" alt="">
+                    <div class="v-title">
+                        Fullstack Developer
+                        (2023-Present)
+                    </div>
+                    <div class="v-desc">Welcome to my full-stack project! As a first-year student, I'm excited to delve into the world of web development. From crafting engaging front-end experiences to implementing powerful back-end functionalities, this project is a testament to my learning journey. With each line of code, I am honing my skills and gaining a deeper understanding of the full-stack ecosystem. Stay tuned for the innovative solutions and creative features that will unfold in this web adventure.
+I'm a FullStack Webdeveloper who's trying out new things in my present journey I want to excell And be successful In my Life 
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footerfirst">
+                <h3>Fullstack Developer</h3>
+            </div>
+            <div class="footersecond">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+          Copyrights &#169;  | All rights reserved |
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: [ 'Student','FullStack Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
